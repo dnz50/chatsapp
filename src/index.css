@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.auth {
+  width: 400px;
+  height: auto;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: linear-gradient(rgba(49, 160, 4, 0.774), rgba(137, 255, 90, 0.774));
+}
+
+.btn-img {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.chat-container {
+  width: 400px;
+  height: auto;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  background: linear-gradient(rgba(49, 160, 4, 0.774), rgba(137, 255, 90, 0.774));
+
+}
+
+.logo {
+  width: 380px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.logo img {
+  width: 200px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.room {
+  width: 50vw;
+  height: 100vh;
+}
+
+.room-header {
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  padding-right: 20px;
+  border-radius: 10px;
+  background: linear-gradient(rgba(49, 160, 4, 0.774), rgba(137, 255, 90, 0.774));
+
+}
+
+.room-header img {
+  width: 75px;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+
+.room-header h5 {
+  color: white;
+}
+
+.letter {
+  font-weight: bold;
+  color: #00a024;
+}
+
+.input-message {
+  height: 38px;
+
+}
+
+.change-btn {
+  background-color: #00a024;
+  color: white;
+}
+
+.change-btn:hover {
+  background-color: white;
+  color: #00a024;
+  border: 1px solid #00a024;
+}
+
+svg {
+  width: 21px;
+  height: 21px;
+}
+
+.messages {
+
+  height: 76vh;
+  overflow-y: scroll;
+}
+
+.message-area {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.user-message p{
+  box-shadow: 1px 1px 1px 2px #00a0259d;
+
+}
+
+.sender-message p{
+  border: 2px solid #00a024;
+}
+.sender-message img {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
+.message-time{
+  font-size: 10px;
+}
+
+@media (max-width:768px) {
+  .room {
+    width: 100vw;
+
+  }
+
+  .change-btn {
+    font-size: x-small;
+  }
+
+  .user-name {
+    font-size: small;
+  }
+
+  .letter {
+    font-size: small;
+  }
+
+}
